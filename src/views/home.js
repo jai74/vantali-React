@@ -59,7 +59,6 @@ const Home = (props) => {
               <span className="home-text10">Services</span>
             </h2>
           </header>
-          <div className="home-right"></div>
         </header>
         <main className="home-cards">
           <section className="home-card">

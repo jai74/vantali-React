@@ -118,14 +118,6 @@
   font-style: normal;
   font-weight: 400;
 }
-.home-right {
-  gap: var(--dl-space-space-unit);
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
 .home-cards {
   gap: var(--dl-space-space-threeunits);
   width: 100%;
