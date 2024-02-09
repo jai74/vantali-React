@@ -23,15 +23,14 @@ const Home = (props) => {
             <main className="home-main">
               <header className="home-header">
                 <h1 className="home-heading">
-                  <br className="home-text"></br>
-                  <span className="home-text01">Do Less.</span>
-                  <br className="home-text02"></br>
-                  <span className="home-text03">Care More.</span>
+                  <span className="home-text">Do Less.</span>
+                  <br className="home-text01"></br>
+                  <span className="home-text02">Care More.</span>
                   <br></br>
                 </h1>
                 <span className="home-caption">
-                  <br className="home-text05"></br>
-                  <span className="home-text06">
+                  <br className="home-text04"></br>
+                  <span className="home-text05">
                     Effortlessly transform doctor-patient conversations into
                     EHRs, say good bye to manual prescription writing with our
                     speech-to-prescription technology, and explore medical case
@@ -47,69 +46,91 @@ const Home = (props) => {
       <section className="home-section1">
         <header className="home-header1">
           <header className="home-left">
-            <h2 className="home-heading1 section-heading">
-              <span className="home-text08">Our</span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="home-text10">Services</span>
-            </h2>
+            <h2 className="home-heading1 section-heading">Features</h2>
           </header>
         </header>
         <main className="home-cards">
-          <section className="home-card">
-            <main className="home-content1">
-              <h1 className="home-header2">Effortless EHR Documentation</h1>
-              <p className="home-description">
-                <span>
-                  Convert doctor-patient conversations into clear and accurate
-                  Electronic Health Record (EHR) documents
-                </span>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-              </p>
-            </main>
-          </section>
-          <section className="home-card1">
-            <main className="home-content2">
-              <h1 className="home-header3">
-                <span>Speech To Prescription</span>
-                <br></br>
-              </h1>
-              <p className="home-description1">
-                <span>
-                  {' '}
-                  Simplify prescription writing with voice recognition
-                  technology, convert speech to prescription in real time
-                </span>
-                <br className="home-text19"></br>
-                <br></br>
-                <br></br>
-                <br></br>
-              </p>
-            </main>
-          </section>
-          <section className="home-card2">
-            <main className="home-content3">
-              <h1 className="home-header4">Explore Medical Case Studies</h1>
-              <p className="home-description2">
-                <span>
-                  {' '}
-                  Access our rich respository of medical cases to stay informed
-                  and make informed decisions, providing healthcare
-                  professionals with valuable insights 
-                </span>
-                <br className="home-text24"></br>
-                <br></br>
-              </p>
-            </main>
-          </section>
+          <animate-on-reveal
+            animation="zoomIn"
+            duration="700ms"
+            delay="0s"
+            direction="normal"
+            easing="ease"
+            iteration="1"
+          >
+            <section data-thq-animate-on-reveal="true" className="home-card">
+              <main className="home-content1">
+                <h1 className="home-header2">Effortless EHR Documentation</h1>
+                <p className="home-description">
+                  <span className="home-text07">
+                    Convert doctor-patient conversations into clear and accurate
+                    Electronic Health Record (EHR) documents
+                  </span>
+                  <br></br>
+                </p>
+              </main>
+            </section>
+          </animate-on-reveal>
+          <animate-on-reveal
+            animation="zoomIn"
+            duration="700ms"
+            delay="0s"
+            direction="normal"
+            easing="ease"
+            iteration="1"
+          >
+            <section data-thq-animate-on-reveal="true" className="home-card1">
+              <main className="home-content2">
+                <h1 className="home-header3">
+                  <span className="home-text09">Speech To Prescription</span>
+                  <br></br>
+                </h1>
+                <p className="home-description1">
+                  <span>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span className="home-text12">
+                    Simplify prescription writing with voice recognition
+                    technology, convert speech to prescription in real time
+                  </span>
+                  <br></br>
+                </p>
+              </main>
+            </section>
+          </animate-on-reveal>
+          <animate-on-reveal
+            animation="zoomIn"
+            duration="700ms"
+            delay="0s"
+            direction="normal"
+            easing="ease"
+            iteration="1"
+          >
+            <section data-thq-animate-on-reveal="true" className="home-card2">
+              <main className="home-content3">
+                <h1 className="home-header4">Explore Medical Case Studies</h1>
+                <p className="home-description2">
+                  <span>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span className="home-text15">
+                    Access our rich respository of medical cases to stay
+                    informed and make informed decisions, providing healthcare
+                    professionals with valuable insights 
+                  </span>
+                  <br></br>
+                </p>
+              </main>
+            </section>
+          </animate-on-reveal>
         </main>
       </section>
       <footer className="home-footer">
@@ -125,9 +146,9 @@ const Home = (props) => {
                     className="home-textinput input"
                   />
                   <div className="home-buy button">
-                    <span className="home-text26">Join</span>
-                    <span className="home-text27">
-                      <span>Subscribe now</span>
+                    <span className="home-text17">Join</span>
+                    <span className="home-text18">
+                      <span className="home-text19">Subscribe now</span>
                       <br></br>
                     </span>
                   </div>

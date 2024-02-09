@@ -29,7 +29,7 @@ Navbar.defaultProps = {
   text: 'Text',
   rootClassName: '',
   heading: 'Heading',
-  brandingLogo: '/vantali_logo_black-200h.png',
+  brandingLogo: '/vantali_logo_black-1500h.png',
 }
 
 Navbar.propTypes = {
